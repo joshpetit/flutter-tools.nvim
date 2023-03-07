@@ -58,7 +58,7 @@ some basic setup might look like.
     -- In config section for the debugger
     debugger = {
       enabled = true,
-      register.configurations = function()
+      register_configurations = function()
         local dap = require("dap")
         dap.adapters.dart = {
           type = "executable",
